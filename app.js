@@ -83,8 +83,8 @@ Telegram.sendData(item);
 let userCard = document.getElementById("usercard");
 
 let p = document.createElement("p");
-p.innerText = `${Telegram.initDataUnsafe.first_name} 
-${Telegram.initDataUnsafe.last_name}. user id:
-${Telegram.initDataUnsafe.user_id}`
+p.innerText = `${Telegram.initDataUnsafe.user.first_name} 
+${Telegram.initDataUnsafe.user.last_name}. user id:
+${Telegram.initDataUnsafe.user.user_id}`
 
 userCard.appendChild(p);
