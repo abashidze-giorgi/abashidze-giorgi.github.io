@@ -7,6 +7,10 @@ var(--tg-theme-button-color)
 var(--tg-theme-button-text-color)
 */
 
+h1 {
+    color: var(--tg-theme-text-color);
+}
+
 body {
     margin: 0;
     padding: 0;
